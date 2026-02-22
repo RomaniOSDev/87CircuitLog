@@ -1,0 +1,6 @@
+framework module Pods_87CircuitLog {
+  umbrella header "Pods-87CircuitLog-umbrella.h"
+
+  export *
+  module * { export * }
+}
