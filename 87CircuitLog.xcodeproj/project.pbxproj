@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		748174092F580ED1008BA5CC /* CheckNewVersionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748174072F580ED1008BA5CC /* CheckNewVersionView.swift */; };
+		7481740A2F580ED1008BA5CC /* NewVersionOndord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748174062F580ED1008BA5CC /* NewVersionOndord.swift */; };
+		7481740B2F580ED1008BA5CC /* CheckLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748174052F580ED1008BA5CC /* CheckLink.swift */; };
 		749382B42F4B8C0800624469 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7493829D2F4B8C0800624469 /* Assets.xcassets */; };
 		749382B62F4B8C0800624469 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 749382AA2F4B8C0800624469 /* LaunchScreen.storyboard */; };
 		749382B72F4B8C0800624469 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 749382AC2F4B8C0800624469 /* Main.storyboard */; };
@@ -35,6 +38,9 @@
 
 /* Begin PBXFileReference section */
 		2EC1944279E8452E016613B8 /* Pods-87CircuitLog.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-87CircuitLog.release.xcconfig"; path = "Target Support Files/Pods-87CircuitLog/Pods-87CircuitLog.release.xcconfig"; sourceTree = "<group>"; };
+		748174052F580ED1008BA5CC /* CheckLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckLink.swift; sourceTree = "<group>"; };
+		748174062F580ED1008BA5CC /* NewVersionOndord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewVersionOndord.swift; sourceTree = "<group>"; };
+		748174072F580ED1008BA5CC /* CheckNewVersionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckNewVersionView.swift; sourceTree = "<group>"; };
 		749382982F4B8C0800624469 /* Achievement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Achievement.swift; sourceTree = "<group>"; };
 		749382992F4B8C0800624469 /* AchievementsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementsView.swift; sourceTree = "<group>"; };
 		7493829A2F4B8C0800624469 /* AffirmationStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AffirmationStore.swift; sourceTree = "<group>"; };
@@ -76,6 +82,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		748174082F580ED1008BA5CC /* LoadingView */ = {
+			isa = PBXGroup;
+			children = (
+				748174052F580ED1008BA5CC /* CheckLink.swift */,
+				748174062F580ED1008BA5CC /* NewVersionOndord.swift */,
+				748174072F580ED1008BA5CC /* CheckNewVersionView.swift */,
+			);
+			path = LoadingView;
+			sourceTree = "<group>";
+		};
 		749382B32F4B8C0800624469 /* 87CircuitLog */ = {
 			isa = PBXGroup;
 			children = (
@@ -104,6 +120,7 @@
 				749382B02F4B8C0800624469 /* SettingsView.swift */,
 				749382B12F4B8C0800624469 /* StatsView.swift */,
 				749382B22F4B8C0800624469 /* ViewController.swift */,
+				748174082F580ED1008BA5CC /* LoadingView */,
 			);
 			path = 87CircuitLog;
 			sourceTree = "<group>";
@@ -258,6 +275,9 @@
 				749382C72F4B8C0800624469 /* OnboardingView.swift in Sources */,
 				749382C82F4B8C0800624469 /* PieChartView.swift in Sources */,
 				749382C92F4B8C0800624469 /* SceneDelegate.swift in Sources */,
+				748174092F580ED1008BA5CC /* CheckNewVersionView.swift in Sources */,
+				7481740A2F580ED1008BA5CC /* NewVersionOndord.swift in Sources */,
+				7481740B2F580ED1008BA5CC /* CheckLink.swift in Sources */,
 				749382CA2F4B8C0800624469 /* SettingsView.swift in Sources */,
 				749382CB2F4B8C0800624469 /* StatsView.swift in Sources */,
 				749382CC2F4B8C0800624469 /* ViewController.swift in Sources */,
@@ -308,7 +328,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.nas.s1mpc1rcl0g;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
@@ -347,7 +367,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.nas.s1mpc1rcl0g;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
